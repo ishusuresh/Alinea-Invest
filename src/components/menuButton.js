@@ -36,7 +36,7 @@ class MenuButton extends React.Component {
 
   render() {
     const { classes } = this.props;
-    const { auth, anchorEl } = this.state;
+    const { anchorEl } = this.state;
     const open = Boolean(anchorEl);
     const listItems = this.props.items.map((link) => (
       <MenuItem onClick={this.handleClose}>{link}</MenuItem>
