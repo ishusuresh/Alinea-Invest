@@ -189,7 +189,7 @@ class CustomCard extends React.Component {
     return (
       <Card className={classes.CardStyle}>
         <Box
-          className="imgsection"
+          
           className={this.props.buttonDisabled ? "imgsectionDis" : "imgsection"}
         >
           <Box display="flex" justifyContent="center">
