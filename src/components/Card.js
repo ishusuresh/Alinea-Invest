@@ -195,13 +195,14 @@ class CustomCard extends React.Component {
           <Box display="flex" justifyContent="center">
             <img
               src={
-                this.props.cardNo == "1"
+                this.props.cardNo === "1"
                   ? Card1
-                  : this.props.cardNo == "2"
+                  : this.props.cardNo === "2"
                   ? Card2
                   : Card3
               }
               className="card1"
+              alt="card"
             />
           </Box>
         </Box>

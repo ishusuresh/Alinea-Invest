@@ -2,7 +2,6 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import ExpandLess from "@material-ui/icons/ExpandLess";
@@ -95,7 +94,7 @@ class NavBar extends React.Component {
         aria-labelledby="nested-list-subheader"
         subheader={
           <ListSubheader component="div" id="nested-list-subheader">
-            <img src={logo} className={classes.logo} />
+            <img src={logo} className={classes.logo} alt="logo" />
           </ListSubheader>
         }
         className={classes.listStyle}

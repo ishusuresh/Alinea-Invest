@@ -476,7 +476,7 @@ class homePage extends React.Component {
         <Hidden mdUp>
           <AppBar position="fixed" className={classes.appbarmob}>
             <Toolbar >
-              <img src={logo} />
+              <img src={logo} alt="drawerlogo"/>
               <MenuIcon onClick={this.openSideBar} />
             </Toolbar>
           </AppBar>
@@ -489,7 +489,7 @@ class homePage extends React.Component {
                 <Grid container>
                   <Grid item container md={6} className="leftGrid">
                     <Grid item md={4}>
-                      <img src={logo} className="logo" />
+                      <img src={logo} className="logo" alt="main logo" />
                     </Grid>
                     <Grid item md={8}>
                       <ul className="alignment">
@@ -581,7 +581,7 @@ class homePage extends React.Component {
                 </Box>
                 <Box mb={5} display="flex" alignSelf="end" className="flagBox">
                   <Box mr={2}>
-                    <img src={flag} />
+                    <img src={flag} alt="flag"/>
                   </Box>
                   <Box>
                     <Typography className="flag">
@@ -591,7 +591,7 @@ class homePage extends React.Component {
                 </Box>
                 <Box mb={5} display="flex" alignSelf="end" className="flagBox">
                   <Box mr={2}>
-                    <img src={bankLogo} />
+                    <img src={bankLogo} alt="banklogo"/>
                   </Box>
                   <Box>
                     <Typography className="flag">
@@ -603,7 +603,7 @@ class homePage extends React.Component {
               </Box>
             </Grid>
             <Grid item md={6}>
-              <img src={banner} className="banner" />
+              <img src={banner} alt="banner" className="banner" />
             </Grid>
           </Grid>
           <Grid container className={classes.section2}>
@@ -611,13 +611,13 @@ class homePage extends React.Component {
               <Typography className="sec2">BACKED BY THE BEST</Typography>
             </Grid>
             <Grid item md={3} xs={12} className="company-logo">
-              <img src={img1} />
+              <img src={img1} alt="company1"/>
             </Grid>
             <Grid item md={3} xs={12} className="company-logo">
-              <img src={img2} />
+              <img src={img2} alt="company2" />
             </Grid>
             <Grid item md={3} xs={12} className="company-logo">
-              <img src={img3} />
+              <img src={img3} alt="company3"/>
             </Grid>
           </Grid>
           <Grid container className={classes.section3}>
@@ -652,7 +652,7 @@ class homePage extends React.Component {
               </Box>
             </Grid>
             <Grid item md={5} className="rightGrid">
-              <img src={bonus} />
+              <img src={bonus} alt="bonus" />
             </Grid>
           </Grid>
           <Grid container className={classes.section4}>

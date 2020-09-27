@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import Button from "@material-ui/core/Button";
+
 
 import { withStyles } from "@material-ui/styles";
 
@@ -25,10 +25,7 @@ class MenuButton extends React.Component {
     anchorEl: null,
   };
 
-  handleChange = (event, checked) => {
-    this.setState({ auth: checked });
-  };
-
+  
   handleMenu = (event) => {
     this.setState({ anchorEl: event.currentTarget });
   };
